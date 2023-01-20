@@ -53,7 +53,7 @@ This is a public src, So use it at your own risk. Drivers will probably be detec
 
 ---
 
- <img src="![image](https://user-images.githubusercontent.com/122543609/213592736-9d2e7ac2-3ab4-446e-beb6-6a1937a49b5f.png)g"/>
+ <img src="![image](https://user-images.githubusercontent.com/122543609/213592736-9d2e7ac2-3ab4-446e-beb6-6a1937a49b5f.png)"/>
 
 --- 
 
