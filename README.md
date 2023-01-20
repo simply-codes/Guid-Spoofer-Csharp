@@ -10,8 +10,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/top/simply-codes/Guid-Spoofer-Csharp?style=flat-square"/>
-  <img src="https://img.shields.io/github/last-commit/simply-codes/Guid-Spoofer-Csharpr?style=flat-square"/>
-  <img src="https://img.shields.io/github/stars/simply-codes/Guid-Spoofer-Csharpr?color=5ac18e&label=Stars&style=flat-square"/>
+  <img src="https://img.shields.io/github/last-commit/simply-codes/Guid-Spoofer-Csharp?style=flat-square"/>
+  <img src="https://img.shields.io/github/stars/simply-codes/Guid-Spoofer-Csharp?color=5ac18e&label=Stars&style=flat-square"/>
 
 </p>
 
