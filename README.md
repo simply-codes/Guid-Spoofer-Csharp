@@ -53,7 +53,7 @@ This is a public src, So use it at your own risk. Drivers will probably be detec
 
 ---
 
- <img src="![image](https://cdn.discordapp.com/attachments/1064933951417884722/1065791544977805363/image.png)"/>
+<img src="https://cdn.discordapp.com/attachments/1064933951417884722/1065791544977805363/image.png"/>
 
 --- 
 
