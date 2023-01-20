@@ -3,7 +3,7 @@
 //                           Or you can ofc use it for whatever you want :D
 
 
-//                                       github.com/owersite
+//                                       github.com/simply-codes
 
 
 using Microsoft.Win32;
