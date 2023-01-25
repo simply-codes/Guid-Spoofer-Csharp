@@ -1,5 +1,5 @@
-﻿//                                Used for HardwareID Ban bypassing
-//  This changes("Spoofs") your Universally Unique Identifier(GUID) so AntiCheats dont recognize you.     (commonly used for that)
+//                                Used for HardwareID Ban bypassing
+//  This changes("Spoofs") your Universally Unique Identifier(GUID) so AntiCheats dont recognize you.
 //                           Or you can ofc use it for whatever you want :D
 
 
@@ -61,70 +61,8 @@ namespace hwid_spoof_test
         {
             if (IsAdministrator())
             {
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Made By simply#9999");
-                Thread.Sleep(2250);
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Console.WriteLine("TYPE 1 AND HIT ENTER");
-                Thread.Sleep(150);
-                Thread.Sleep(150);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Do you want to spoof your HWID? - Type 1 if you want to spoof your GUID");
                 string mudjja = Console.ReadLine();
                 if (mudjja == "1")
                 {
@@ -138,32 +76,14 @@ namespace hwid_spoof_test
                     Console.WriteLine("DONE SPOOFING YOUR GUID");
                     Thread.Sleep(1750);
                     Environment.Exit(0);
-                    Console.ReadLine();
                 }
-                else if (mudjja == "1")
-                {
-                    Thread.Sleep(500);
-                    SpoofHwProfileGUID();
-                    SpoofGUID();
-                    Console.Clear();
-                    Console.WriteLine("SPOOFING YOUR GUID...");
-                    Thread.Sleep(2750);
-                    Console.Clear();
-                    Console.WriteLine("DONE SPOOFING YOUR GUID");
-                    Thread.Sleep(1750);
-                    Environment.Exit(0);
-                    Console.ReadLine();
-                }
-
-
                 else
                 {
-                    Thread.Sleep(100);
+                    Environment.Exit(0);
                 }
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.Write("Please run the program as administrator.");
                 Thread.Sleep(1500);
                 Environment.Exit(0);
